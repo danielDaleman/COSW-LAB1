@@ -34,7 +34,8 @@ const ROUTES = [
  imports: [
    BrowserModule,
    NgbModule.forRoot(),
-   RouterModule.forRoot(ROUTES)
+   RouterModule.forRoot(ROUTES),
+   ReactiveFormsModule
  ],
  providers: [TodoService],
  bootstrap: [AppComponent]
